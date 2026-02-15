@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szakmai Vizsga Portfólió - Szabó Dávid Róbert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-content">
+            <img src="images.jpg" alt="Bánki Logó" class="school-logo">
+            <div class="header-title">
+                <h1>Szakmai Vizsga</h1>
+                <p>Portfólió Összeállítás</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="sticky-nav">
+        <ul class="nav-grid">
+            <li class="nav-item">
+                <a href="#" class="nav-link">11. Osztály</a>
+                <div class="nav-dropdown">
+                    <a href="Portfolio/halozatkezeles.pdf" target="_blank">Hálózatkezelés</a>
+                    <a href="Portfolio/elektronika.pdf" target="_blank">Elektronika</a>
+                    <a href="Portfolio/digitalisaramkorok.pdf" target="_blank">Digitális áramkörök</a>
+                    <a href="Portfolio/adatbazis.pdf" target="_blank">Adatbáziskezelés</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">12. Osztály</a>
+                <div class="nav-dropdown">
+                    <a href="Portfolio/mikrokontroller.pdf" target="_blank">Mikrovezérlő programozás</a>
+                    <a href="Portfolio/plc.pdf" target="_blank">PLC programozás</a>
+                    <a href="Portfolio/szamitogepesszim.pdf" target="_blank">Számítógépes szimuláció</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">13. Osztály</a>
+                <div class="nav-dropdown">
+                    <a href="Portfolio/programfejlesztes.pdf" target="_blank">Programfejlesztés</a>
+                    <a href="Portfolio/robotika.pdf" target="_blank">Robottechnika CAD/CAM</a>
+                    <a href="Portfolio/iot.pdf" target="_blank">IoT</a>
+                    <a href="Portfolio/cv.pdf" target="_blank">Munkavállalói angol</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#galeria" class="nav-link gallery-btn">Galéria</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="welcome-box">
+            <h3 id="typing-text">Készítette: Szabó Dávid Róbert</h3>
+            <div class="divider"></div>
+            <p>Dunaújvárosi Egyetem Bánki Donát Technikum</p>
+        </section>
+
+        <section id="galeria" class="gallery-container">
+    <h2>Projekt Galéria</h2>
+    <div class="gallery-grid">
+        
+        <div class="gallery-item video-item">
+            <video controls>
+                <source src="videok/video1.mp4" type="video/mp4">
+            </video>
+            <p>PLC Programozás működés közben</p>
+        </div>
+
+        <div class="gallery-item video-item">
+            <video controls>
+                <source src="videok/video2.mp4" type="video/mp4">
+            </video>
+            <p>Robotkar szimuláció</p>
+        </div>
+
+        <div class="gallery-item video-item">
+            <video controls>
+                <source src="videok/video3.mp4" type="video/mp4">
+            </video>
+            <p>Digitális áramkör teszt</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="kepek/kep1." alt="Projekt 1">
+            <p>Hálózatépítés gyakorlat</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="kepek/kep2.jpg" alt="Projekt 2">
+            <p>Mikrokontroller kapcsolás</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="kepek/kep3.jpg" alt="Projekt 3">
+            <p>CAD tervezés folyamata</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="kepek/kep4.jpg" alt="Projekt 4">
+            <p>Adatbázis séma terv</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="kepek/kep5.jpg" alt="Projekt 5">
+            <p>IoT szenzor egység</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="kepek/kep6.jpg" alt="Projekt 6">
+            <p>Elektronikai mérés</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="kepek/kep7.jpg" alt="Projekt 7">
+            <p>Szakmai gyakorlat - Csoportkép</p>
+        </div>
+
+    </div>
+</section>
+    </main>
+
+    <script src="script.js"></script>
+	<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <div id="caption"></div>
+</div>
+</body>
+</html>
